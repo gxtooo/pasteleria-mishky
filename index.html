@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pastelería Mishky · Versiones del Proyecto</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #fdf6f0;
+      color: #3b2314;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .caja {
+      background: #ffffff;
+      padding: 2rem 2.5rem;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+      text-align: center;
+      max-width: 420px;
+      width: 90%;
+    }
+    h1 { margin-top: 0; font-size: 1.6rem; }
+    p { color: #6b4c3b; margin-bottom: 1.8rem; }
+    a {
+      display: block;
+      text-decoration: none;
+      padding: 0.9rem 1.2rem;
+      margin-bottom: 0.9rem;
+      border-radius: 10px;
+      font-weight: 700;
+      transition: transform 0.15s ease;
+    }
+    a:hover { transform: translateY(-2px); }
+    .v1 { background: #e8d5c4; color: #3b2314; }
+    .v2 { background: #b85c38; color: #ffffff; }
+  </style>
+</head>
+<body>
+  <div class="caja">
+    <h1>Pastelería Mishky</h1>
+    <p>Selecciona la versión del catálogo que deseas abrir:</p>
+
+    <!-- Versión 1 (Original) -->
+    <a class="v1" href="./pasteleria-mishky/catalogo.html">
+      1. Versión Original
+    </a>
+
+    <!-- Versión 2 (Actualizada con Sugeridor y Sorpréndeme) -->
+    <a class="v2" href="./pasteleria-mishky%20-v2/catalogo.html">
+      2. Versión Actualizada (2 funciones nuevas)
+    </a>
+  </div>
+</body>
+</html>
